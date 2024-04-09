@@ -1,6 +1,6 @@
 # thaitokens
 
-ทดสอบใช้ TokenMonster สร้างรายการหน่วยคำย่อยสำหรับภาษาไทย
+ทดสอบสร้างรายการหน่วยคำย่อยสำหรับภาษาไทยด้วย [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/)
 
 Experimenting extracting Thai subword tokens for language model creation, using [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/).
 
@@ -113,4 +113,4 @@ Convert it to YAML format:
 ./exportvocab -input-vocab wss.vocab -output-yaml wss.vocab.yaml -order-by-score
 ```
 
-See [wss.vocab.yaml](wss.vocab.yaml) to see how the resulting vocabulary can look like.
+See [wss.vocab.yaml](wss/wss.vocab.yaml) to see how the resulting vocabulary can look like.
