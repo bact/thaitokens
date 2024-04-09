@@ -42,6 +42,31 @@ tokens:
       encoded: true
 ```
 
+[...]
+
+```yaml
+    - token:   "ลยค่ะ"
+      id:      36162
+      score:   0.00013340132
+      encoded: true
+    - token:   "สมิติเวช"
+      id:      54060
+      score:   0.00013340132
+      encoded: true
+    - token:   "ไม่เห็น"
+      id:      51286
+      score:   0.00013340132
+      encoded: true
+    - token:   "แนะนำให้"
+      id:      54773
+      score:   0.00013340132
+      encoded: true
+    - token:   "ผู้โชคดี"
+      id:      53678
+      score:   0.00013340132
+      encoded: true
+```
+
 ## Steps
 
 Follow [4 training steps](https://github.com/alasdairforsythe/tokenmonster/tree/main/training) as detailed by the TokenMonster project. You need the Go compiler to build the training toolchain.
