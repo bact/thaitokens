@@ -1,6 +1,8 @@
 # thaitokens
 
-ทดสอบสร้างรายการหน่วยคำย่อยสำหรับภาษาไทยด้วย [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/)
+ทดสอบใช้ [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/) สร้างรายการหน่วยคำย่อย จากชุดข้อมูลภาษาไทย
+
+ดูตัวอย่างรายการหน่วยคำย่อยที่สร้างจากชุดข้อมูล [Wisesight Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment) ได้ที่ [wss.vocab.yaml](wss/wss.vocab.yaml)
 
 Experimenting extracting Thai subword tokens for language model creation, using [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/).
 
