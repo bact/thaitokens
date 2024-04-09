@@ -1,10 +1,46 @@
 # thaitokens
 
+Experimenting extracting Thai subword tokens for language model creation, using [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/).
+
 ทดสอบใช้ [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/) สร้างรายการหน่วยคำย่อย จากชุดข้อมูลภาษาไทย
 
-ดูตัวอย่างรายการหน่วยคำย่อยที่สร้างจากชุดข้อมูล [Wisesight Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment) ได้ที่ [wss.vocab.yaml](wss/wss.vocab.yaml)
+ตัวอย่างรายการหน่วยคำย่อยที่สร้างจากชุดข้อมูล [Wisesight Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment) (ดูทั้งหมดได้ที่ [wss.vocab.yaml](wss/wss.vocab.yaml)):
 
-Experimenting extracting Thai subword tokens for language model creation, using [TokenMonster](https://github.com/alasdairforsythe/tokenmonster/).
+```yaml
+charset: utf-8
+normalization: "nfd quotemarks collapse trim unixlines"
+capcode: 0
+training-param: 34
+tokens:
+    - token:   "TokenMonsterHexEncode{b8}"
+      id:      155
+      score:   0.0063883355
+      encoded: true
+    - token:   "TokenMonsterHexEncode{b9}"
+      id:      156
+      score:   0.0019254258
+      encoded: true
+    - token:   " "
+      id:      4
+      score:   0.0017494631
+      encoded: true
+    - token:   "\n"
+      id:      1
+      score:   0.0014612209
+      encoded: true
+    - token:   " #"
+      id:      237
+      score:   0.0011326408
+      encoded: true
+    - token:   " และ"
+      id:      19632
+      score:   0.00089728273
+      encoded: true
+    - token:   "ครับ"
+      id:      22685
+      score:   0.0007870678
+      encoded: true
+```
 
 ## Steps
 
